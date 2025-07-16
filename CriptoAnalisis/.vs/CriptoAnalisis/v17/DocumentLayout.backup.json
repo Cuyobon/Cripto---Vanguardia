@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|solutionrelative:CriptoAnalisis\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\XOREncoder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|solutionrelative:CriptoAnalisis\\XOREncoder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\Vigenere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|solutionrelative:CriptoAnalisis\\Vigenere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\Prerequisites.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|solutionrelative:CriptoAnalisis\\Prerequisites.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\DES.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC30A82A-67D8-4633-809E-46C58285B2A3}|CriptoAnalisis\\CriptoAnalisis.vcxproj|solutionrelative:CriptoAnalisis\\DES.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XOREncoder.h",
+              "DocumentMoniker": "C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\XOREncoder.h",
+              "RelativeDocumentMoniker": "CriptoAnalisis\\XOREncoder.h",
+              "ToolTip": "C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\XOREncoder.h",
+              "RelativeToolTip": "CriptoAnalisis\\XOREncoder.h",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAqwHQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-16T17:27:38.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vigenere.h",
+              "DocumentMoniker": "C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\Vigenere.h",
+              "RelativeDocumentMoniker": "CriptoAnalisis\\Vigenere.h",
+              "ToolTip": "C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\Vigenere.h",
+              "RelativeToolTip": "CriptoAnalisis\\Vigenere.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-16T17:26:52.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Prerequisites.h",
+              "DocumentMoniker": "C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\Prerequisites.h",
+              "RelativeDocumentMoniker": "CriptoAnalisis\\Prerequisites.h",
+              "ToolTip": "C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\Prerequisites.h",
+              "RelativeToolTip": "CriptoAnalisis\\Prerequisites.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-16T17:26:19.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DES.h",
+              "DocumentMoniker": "C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\DES.h",
+              "RelativeDocumentMoniker": "CriptoAnalisis\\DES.h",
+              "ToolTip": "C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\DES.h",
+              "RelativeToolTip": "CriptoAnalisis\\DES.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-16T17:20:01.433Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "CriptoAnalisis\\Main.cpp",
               "ToolTip": "C:\\Users\\angel\\Documents\\GitHub\\Cripto---Vanguardia\\CriptoAnalisis\\CriptoAnalisis\\Main.cpp",
               "RelativeToolTip": "CriptoAnalisis\\Main.cpp",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAAAOoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-16T16:38:22.292Z",
               "EditorCaption": ""
