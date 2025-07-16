@@ -3,7 +3,7 @@
 #include <fstream>
 #include <algorithm>
 
-// Guarda texto en un archivo
+// Guarda el .txt
 void guardarArchivo(const std::string& ruta, const std::string& contenido) {
     std::ofstream out(ruta);
     if (!out) {
@@ -14,7 +14,7 @@ void guardarArchivo(const std::string& ruta, const std::string& contenido) {
     out.close();
 }
 
-// Lee el contenido de un archivo como string
+// Lee el .txt
 std::string leerArchivo(const std::string& ruta) {
     std::ifstream in(ruta);
     if (!in) {
@@ -27,7 +27,7 @@ std::string leerArchivo(const std::string& ruta) {
     return buffer.str();
 }
 
-// Quita espacios, saltos de línea, etc., para comparar mejor
+// Quita espacios, saltos de línea, etc.
 std::string limpiar(const std::string& texto) {
     std::string resultado = texto;
     resultado.erase(std::remove_if(resultado.begin(), resultado.end(), [](char c) {
@@ -42,9 +42,9 @@ int main() {
     std::string archivoCifrado = "Folder2/datos_cif.txt";
     std::string archivoDescifrado = "Folder2/datos_descif.txt";
 
-    int desplazamiento = 3; // Puedes cambiar este número si quieres
+    int desplazamiento = 3; // Desplazamiento 
 
-    // Leer el archivo original
+    // Leer el .txt original
     std::string contenido = leerArchivo(archivoOriginal);
     if (contenido.empty()) {
         std::cerr << "No se pudo leer el archivo original.\n";
