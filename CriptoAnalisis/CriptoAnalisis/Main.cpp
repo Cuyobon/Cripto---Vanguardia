@@ -8,7 +8,10 @@
 #include <algorithm>
 #include <map>
 
-// === Función para cargar claves ===
+
+//Función para cargar claves desde un archivo de texto
+//Las claves se puede modificar desde el archivo claves.txt
+ 
 std::map<std::string, std::string> cargarClaves(const std::string& ruta) {
     std::map<std::string, std::string> claves;
     std::ifstream archivo(ruta);
@@ -23,9 +26,10 @@ std::map<std::string, std::string> cargarClaves(const std::string& ruta) {
     }
     return claves;
 }
-
-// === Utilidades ===
-
+/*
+ Guarda contenido en un archivo de texto en la ruta indicada
+ Si no puede abrirse el archivo, muestra un mensaje de error
+ */
 void guardarArchivo(const std::string& ruta, const std::string& contenido) {
     std::ofstream out(ruta);
     if (!out) {
@@ -36,6 +40,10 @@ void guardarArchivo(const std::string& ruta, const std::string& contenido) {
     out.close();
 }
 
+/*
+ Lee el contenido de un archivo de texto y lo retorna como string
+ Si no puede abrirse, devuelve una cadena vacía
+ */
 std::string leerArchivo(const std::string& ruta) {
     std::ifstream in(ruta);
     if (!in) {
@@ -48,6 +56,10 @@ std::string leerArchivo(const std::string& ruta) {
     return buffer.str();
 }
 
+/*
+ Elimina espacios en blanco y saltos de línea de un texto
+ Útil para comparar textos cifrados/descifrados ignorando formato.
+ */
 std::string limpiar(const std::string& texto) {
     std::string resultado = texto;
     resultado.erase(std::remove_if(resultado.begin(), resultado.end(), [](char c) {
@@ -56,6 +68,10 @@ std::string limpiar(const std::string& texto) {
     return resultado;
 }
 
+/*
+ Verifica si el texto descifrado coincide con el original.
+ Muestra mensaje en consola indicando si está correcto o no.
+ */
 void verificar(const std::string& nombre, const std::string& original, const std::string& descifrado) {
     std::cout << "\n--- Verificación: " << nombre << " ---\n";
     if (limpiar(original) == limpiar(descifrado)) {
@@ -66,8 +82,11 @@ void verificar(const std::string& nombre, const std::string& original, const std
     }
 }
 
-// === Algoritmos con claves ===
-
+/*
+						ENCRIPTADO CÉSAR
+ Realiza el cifrado y descifrado usando el algoritmo César.
+ Lee texto de un archivo, lo cifra y descifra, guarda los resultados y verifica.
+ */
 void cifrarCesar(const std::string& clave) {
     if (clave.empty()) {
         std::cerr << "[ERROR] Clave para César vacía. Revisa claves.txt\n";
@@ -93,6 +112,11 @@ void cifrarCesar(const std::string& clave) {
     verificar("Cifrado César", entrada, descifrado);
 }
 
+/*
+ 						ENCRIPTADO XOR      
+ Realiza cifrado y descifrado con algoritmo XOR.
+ Aplica la clave dos veces (cifrar y descifrar) y verifica el resultado.
+ */
 void cifrarXOR(const std::string& clave) {
     if (clave.empty()) {
         std::cerr << "[ERROR] Clave XOR vacía. Revisa claves.txt\n";
@@ -114,6 +138,11 @@ void cifrarXOR(const std::string& clave) {
     verificar("Cifrado XOR", entrada, descifrado);
 }
 
+/*
+					ENCRIPTADO VIGENÈRE
+ Realiza el cifrado y descifrado usando el algoritmo Vigenère.
+ Lee texto de archivo, cifra, descifra y guarda resultados.
+ */
 void cifrarVigenere(const std::string& clave) {
     if (clave.empty()) {
         std::cerr << "[ERROR] Clave para Vigenère vacía. Revisa claves.txt\n";
@@ -135,6 +164,11 @@ void cifrarVigenere(const std::string& clave) {
     }
 }
 
+/*
+					ENCRIPTADO DES
+ Realiza cifrado y descifrado con DES.
+ Procesa texto en bloques de 8 bytes, cifra y descifra cada bloque.
+ */
 void cifrarDES(const std::string& claveBinaria) {
     if (claveBinaria.length() != 64 || claveBinaria.find_first_not_of("01") != std::string::npos) {
         std::cerr << "[ERROR] Clave DES inválida. Debe tener exactamente 64 bits en formato binario.\n";
@@ -143,7 +177,7 @@ void cifrarDES(const std::string& claveBinaria) {
 
     std::string entrada = leerArchivo("Folder1/datos_des.txt");
     while (entrada.size() % 8 != 0) {
-        entrada += '\0'; // Rellenar
+        entrada += '\0'; // Rellenar para completar bloques
     }
 
     std::bitset<64> claveBits(claveBinaria);
@@ -170,6 +204,11 @@ void cifrarDES(const std::string& claveBinaria) {
     verificar("Cifrado DES", entrada, descifrado);
 }
 
+/*
+					CIFRADO BINARIO ASCII
+ Realiza conversión de texto ASCII a binario y viceversa.
+ Guarda archivos con el resultado de la conversión.
+ */
 void cifrarBinario() {
     AsciiBinary ascii;
     std::string entrada = leerArchivo("Folder1/datos_extra.txt");
@@ -181,8 +220,12 @@ void cifrarBinario() {
     verificar("Cifrado Binario ASCII", entrada, descifrado);
 }
 
-// === MAIN ===
+// MAIN 
 
+/*
+                    Función principal.
+ Carga las claves, ejecuta cada cifrado y verifica los resultados.
+ */
 int main() {
     std::cout << "=== Segundo Parcial - Cifrados múltiples ===\n";
 

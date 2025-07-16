@@ -1,8 +1,20 @@
 ﻿  Main.cpp
-C:\Users\PC PRIDE FERRET\source\repos\CriptoAnalisis\CriptoAnalisis\DES.h(48,54): warning C4805: '|': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-C:\Users\PC PRIDE FERRET\source\repos\CriptoAnalisis\CriptoAnalisis\DES.h(50,58): warning C4805: '|': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-C:\Users\PC PRIDE FERRET\source\repos\CriptoAnalisis\CriptoAnalisis\DES.h(121,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\PC PRIDE FERRET\source\repos\CriptoAnalisis\CriptoAnalisis\XOREncoder.h(16,21): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\PC PRIDE FERRET\source\repos\CriptoAnalisis\CriptoAnalisis\XOREncoder.h(80,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\PC PRIDE FERRET\source\repos\CriptoAnalisis\CriptoAnalisis\XOREncoder.h(105,22): warning C4018: '<': no coinciden signed/unsigned
-  CriptoAnalisis.vcxproj -> C:\Users\PC PRIDE FERRET\source\repos\CriptoAnalisis\Debug\CriptoAnalisis.exe
+C:\Users\angel\Documents\GitHub\Cripto---Vanguardia\CriptoAnalisis\CriptoAnalisis\DES.h(48,54): warning C4805: '|': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+  (compilando archivo de origen "Main.cpp")
+  
+C:\Users\angel\Documents\GitHub\Cripto---Vanguardia\CriptoAnalisis\CriptoAnalisis\DES.h(50,58): warning C4805: '|': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+  (compilando archivo de origen "Main.cpp")
+  
+C:\Users\angel\Documents\GitHub\Cripto---Vanguardia\CriptoAnalisis\CriptoAnalisis\DES.h(121,23): warning C4018: '<': no coinciden signed/unsigned
+  (compilando archivo de origen "Main.cpp")
+  
+C:\Users\angel\Documents\GitHub\Cripto---Vanguardia\CriptoAnalisis\CriptoAnalisis\XOREncoder.h(16,21): warning C4018: '<': no coinciden signed/unsigned
+  (compilando archivo de origen "Main.cpp")
+  
+C:\Users\angel\Documents\GitHub\Cripto---Vanguardia\CriptoAnalisis\CriptoAnalisis\XOREncoder.h(80,23): warning C4018: '<': no coinciden signed/unsigned
+  (compilando archivo de origen "Main.cpp")
+  
+C:\Users\angel\Documents\GitHub\Cripto---Vanguardia\CriptoAnalisis\CriptoAnalisis\XOREncoder.h(105,22): warning C4018: '<': no coinciden signed/unsigned
+  (compilando archivo de origen "Main.cpp")
+  
+  CriptoAnalisis.vcxproj -> C:\Users\angel\Documents\GitHub\Cripto---Vanguardia\CriptoAnalisis\Debug\CriptoAnalisis.exe
