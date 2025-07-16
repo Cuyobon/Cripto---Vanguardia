@@ -1,0 +1,13 @@
+nombre: Alejandro Urvieta
+usuario: Pana Pablo
+contraseña: cacomixtle2025
+correo: simiobananero@gmail.com
+teléfono: 55 7429 8996
+CURP: LOLM890312HDFRNS08
+RFC: LOLM8903128T5
+domicilio: Calle Falsa 123, Col. Centro, CDMX
+número de tarjeta: 4111 1111 1111 1111
+clave bancaria: 002010077777777777
+fecha de nacimiento: 26/08/2003
+grupo sanguíneo: O+
+contacto de emergencia: Angel Carbajal - 442-635-3153
